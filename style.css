@@ -1,0 +1,6 @@
+ body{
+ background-image: url(./giphy.gif); 
+
+background: linear-gradient(url(./giphy.gif), rgb(173, 175, 175)); 
+background-repeat: no-repeat;
+} 
