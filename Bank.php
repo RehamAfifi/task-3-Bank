@@ -6,7 +6,7 @@ if($_POST['lyears']<3){
   $aloan=($_POST['lamount']*0.1)*($_POST['lyears']);
   $after=($aloan+$_POST['lamount']);
   $amonthly=$after/($_POST['lyears']*12);
-  $table.="<tbody><tr><td>$name</td><td>$after</td><td>$amonthly</td></tr></tbody></table>";
+  $table.="<tbody><tr><td>$aloan</td><td>$after</td><td>$amonthly</td></tr></tbody></table>";
 }
 elseif($_POST['lyears']>3){
 $aloan=($_POST['lamount']*0.15)*($_POST['lyears']);
